@@ -55,4 +55,4 @@ const logEntrySchema = new mongoose.Schema({
 }
 )
 
-module.exports = mongoose.model('LogEntry,', logEntrySchema)
+module.exports = mongoose.model('LogEntry', logEntrySchema)
